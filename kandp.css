@@ -52,8 +52,17 @@ em {
   font-size: 36px;
 }
 
+hr {
+    border: none;
+    border-top: 3px double #e7c061;
+    color: #e7c061;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
 #title-container {
-  width:22%;
+  width:27%;
   float:left;
   height:100vh;
   position:relative;
@@ -65,6 +74,9 @@ em {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  padding: 15px;
+  border-style: double;
+  border-color: #e7c061;
 }
 
 
@@ -84,8 +96,8 @@ em {
 
 #body-container{
   width:60%;
-    float:left;
-    height:100vh;
+  float:left;
+  height:100vh;
   position:relative;
 }
 
