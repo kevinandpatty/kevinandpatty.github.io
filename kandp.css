@@ -1,0 +1,51 @@
+/*
+cream: #e7e0d3
+gold: #e7c061
+black: #272425
+
+fonts
+soul of vodka
+francois one
+oktober
+falkin
+https://www.whatfontis.com/NMY_Alathena-Extra-Bold.similar
+*/
+
+@font-face {
+	font-family: 'SoulofVodka';
+	src: url('fonts/soul-of-vodka.ttf');
+}
+
+body {
+	background-color: #e7e0d3;
+	font-family: 'SoulofVodka', sans-serif;
+}
+
+h1 {
+	font-family: 'SoulofVodka', sans-serif;
+	font-size: 60px;
+	color: #272425;
+}
+
+strong{
+	font-family: 'SoulofVodka', sans-serif;
+	font-size: 60px;
+	color: #272425;
+}
+
+.title-container {
+	text-align: center;
+}
+
+.title {
+	display: inline-block;
+	padding: 50px;
+}
+
+.info-container {
+	text-align: center;
+}
+
+.info {
+	display: inline-block;
+	padding: 50px 0;
