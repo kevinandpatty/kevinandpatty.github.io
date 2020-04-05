@@ -55,10 +55,19 @@ em {
 hr {
     border: none;
     border-top: 3px double #e7c061;
+    border-width: 5px;
     color: #e7c061;
     overflow: visible;
     text-align: center;
     height: 5px;
+}
+
+img {
+  width: 200px;
+  padding:5px;
+  border-style: double;
+  border-color: #e7c061;
+  border-width: 5px;
 }
 
 #title-container {
@@ -75,8 +84,7 @@ hr {
   transform: translate(-50%, -50%);
   text-align: center;
   padding: 15px;
-  border-style: double;
-  border-color: #e7c061;
+
 }
 
 
