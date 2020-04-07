@@ -70,6 +70,12 @@ img {
   border-width: 5px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
 #title-container {
   width:27%;
   float:left;
@@ -113,6 +119,6 @@ img {
   position: absolute;
   top: 50%;
   margin-left:5%;
-  margin-right:40%;
+  margin-right:5%;
   transform: translateY(-50%);
 }
