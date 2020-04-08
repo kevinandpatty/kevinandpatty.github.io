@@ -33,14 +33,14 @@ wanda
 }
 
 @font-face {
-  font-family: 'Bittersweet';
-  src: url('fonts/bittersweet.regular.ttf');
+  font-family: 'Poiret';
+  src: url('fonts/PoiretOne-Regular.ttf');
 }
 
 body {
 	background-color: #e7e0d3;
-  font-family: Bittersweet;
-  font-size:24px;
+  font-family: Poiret;
+  font-size:16px;
 }
 
 strong {
@@ -90,6 +90,8 @@ a {
   transform: translate(-50%, -50%);
   text-align: center;
   padding: 15px;
+  font-family: Bittersweet;
+  font-size:24px;
 
 }
 
@@ -106,6 +108,8 @@ a {
   top: 50%;
   left: 20%;
   transform: translate(-50%, -50%);
+  font-family: Bittersweet;
+  font-size:24px;
  }
 
 #body-container{
