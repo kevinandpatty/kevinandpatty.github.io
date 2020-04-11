@@ -37,10 +37,16 @@ wanda
   src: url('fonts/PoiretOne-Regular.ttf');
 }
 
+
+@font-face {
+  font-family: 'Croissant';
+  src: url('fonts/CroissantOne-Regular.ttf');
+}
+
 body {
 	background-color: #e7e0d3;
   font-family: Poiret;
-  font-size:16px;
+  font-size:20px;
 }
 
 strong {
